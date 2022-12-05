@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_properties_universal_properties_universals",
+  "info": {
+    "displayName": "propertiesUniversal",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "active": {
+      "type": "boolean",
+      "default": false
+    },
+    "stretched": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

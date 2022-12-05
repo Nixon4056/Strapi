@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurant_cards",
+  "info": {
+    "singularName": "restaurant-card",
+    "pluralName": "restaurant-cards",
+    "displayName": "RestaurantCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "properties": {
+      "displayName": "properties",
+      "type": "component",
+      "repeatable": false,
+      "component": "properties.properties"
+    },
+    "propertiesUniversal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "properties-universal.properties-universal"
+    }
+  }
+}

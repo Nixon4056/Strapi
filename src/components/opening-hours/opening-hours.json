@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_opening_hours_opening_hours",
+  "info": {
+    "displayName": "openingHours",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "hourFrom": {
+      "type": "time",
+      "default": "00:00"
+    },
+    "hoursTo": {
+      "type": "time",
+      "default": "00:00"
+    },
+    "dateFrom": {
+      "type": "enumeration",
+      "enum": [
+        "Nd",
+        "Pon",
+        "Wt",
+        "Śr",
+        "Czw",
+        "Pi",
+        "Sob"
+      ]
+    },
+    "dateTo": {
+      "type": "enumeration",
+      "enum": [
+        "Nd",
+        "Pon",
+        "Wt",
+        "Śr",
+        "Czw",
+        "Pi",
+        "Sob"
+      ]
+    }
+  }
+}

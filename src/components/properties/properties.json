@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_properties_properties",
+  "info": {
+    "displayName": "properties",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titlePL": {
+      "type": "string",
+      "required": true
+    },
+    "titleENG": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescriptionPL": {
+      "type": "richtext"
+    },
+    "shortDescriptionENG": {
+      "type": "richtext"
+    },
+    "longDescriptionPL": {
+      "type": "richtext"
+    },
+    "longDescriptionENG": {
+      "type": "richtext"
+    },
+    "openingHours": {
+      "displayName": "openingHours",
+      "type": "component",
+      "repeatable": true,
+      "component": "opening-hours.opening-hours"
+    }
+  }
+}

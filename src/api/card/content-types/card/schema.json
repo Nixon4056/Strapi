@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "properties": {
+      "displayName": "properties",
+      "type": "component",
+      "repeatable": false,
+      "component": "properties.properties",
+      "required": true
+    },
+    "propertiesUniversal": {
+      "displayName": "propertiesUniversal",
+      "type": "component",
+      "repeatable": false,
+      "component": "properties-universal.properties-universal",
+      "required": true
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "header",
     "pluralName": "headers",
-    "displayName": "Header"
+    "displayName": "Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,7 @@
     "header": {
       "type": "richtext",
       "default": "default header",
-      "required": false,
-      "private": true
+      "required": false
     },
     "headerENG": {
       "type": "richtext",
